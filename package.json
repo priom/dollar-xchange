@@ -1,6 +1,8 @@
 {
   "name": "dollar-xchange",
   "version": "0.1.0",
+  "author": "priom",
+  "homepage" : "https://priom.github.io/dollar-xchange",
   "private": true,
   "dependencies": {
     "axios": "^0.16.1",
