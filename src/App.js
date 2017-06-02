@@ -10,6 +10,10 @@ class App extends Component {
     this.props.dispatch(fetchRates())
   }
 
+  convertCurrency() {
+    
+  }
+
   render() {
     const { rates } = this.props
     const mappedRates = rates.map((rates) => <li>{rates.rates}</li>)
@@ -45,7 +49,7 @@ class App extends Component {
         </form>
 
         <p className="App-intro">
-          {rates.base}
+          {/*{rates.base}*/}
         </p>
       </div>
     );
